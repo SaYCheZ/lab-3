@@ -20,5 +20,19 @@ public class Main {
 
         System.out.println("Наибольший элемент находится в позиции (" + location.row + ", " + location.column + ")");
         System.out.println("Значение наибольшего элемента: " + location.maxValue);
+
+        System.out.println("\n");
+
+        MyTime time1 = new MyTime();
+        MyTime time2 = new MyTime(555550000);
+        MyTime time3 = new MyTime(5, 23, 55);
+
+        System.out.println("Текущее время: " + time1);
+        System.out.println("Время после 555550000 миллисекунд: " + time2);
+        System.out.println("Время 5:23:55: " + time3);
+
+
+
     }
 }
+
