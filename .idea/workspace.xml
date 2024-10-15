@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b089bb1-cd31-4d07-85f7-4d9bd11c4e07" name="Changes" comment="Location">
-      <change afterPath="$PROJECT_DIR$/src/MyTime.java" afterDir="false" />
+    <list default="true" id="4b089bb1-cd31-4d07-85f7-4d9bd11c4e07" name="Changes" comment="MyTime">
+      <change afterPath="$PROJECT_DIR$/src/MyInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -70,7 +70,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729006675311</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyTime">
+      <option name="closed" value="true" />
+      <created>1729008185130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729008185130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Location" />
+    <MESSAGE value="MyTime" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyTime" />
   </component>
 </project>

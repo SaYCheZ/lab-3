@@ -31,7 +31,31 @@ public class Main {
         System.out.println("Время после 555550000 миллисекунд: " + time2);
         System.out.println("Время 5:23:55: " + time3);
 
+        System.out.println("\n");
 
+        MyInteger myInt1 = new MyInteger(23);
+        MyInteger myInt2 = new MyInteger(10);
+
+        System.out.println("myInt1 is even? " + myInt1.isEven());
+        System.out.println("myInt1 is odd? " + myInt1.isOdd());
+        System.out.println("myInt1 is prime? " + myInt1.isPrime());
+
+        System.out.println("myInt2 is even? " + myInt2.isEven());
+        System.out.println("myInt2 is odd? " + myInt2.isOdd());
+        System.out.println("myInt2 is prime? " + myInt2.isPrime());
+
+        System.out.println("10 is even? " + MyInteger.isEven(10));
+        System.out.println("10 is odd? " + MyInteger.isOdd(10));
+        System.out.println("10 is prime? " + MyInteger.isPrime(10));
+
+        System.out.println("myInt1 equals 23? " + myInt1.equals(23));
+        System.out.println("myInt1 equals myInt2? " + myInt1.equals(myInt2));
+
+        char[] chars = {'1', '2', '3'};
+        System.out.println("parseInt(char[]) result: " + MyInteger.parseInt(chars));
+
+        String str = "456";
+        System.out.println("parseInt(String) result: " + MyInteger.parseInt(str));
 
     }
 }
